@@ -1,0 +1,21 @@
+Requirement 1
+
+Q1) The first recursive call invoked by towers(5, 2, 3) is:
+    towers(4, 2, 1)
+    explanation: it calls towers(n-1, from, spare), and spare = 6-2-3 = 1.
+
+Q2) Before returning to towers(5, 2, 3), towers(4, 2, 1) makes 31 total calls.
+
+
+Q3) After the first recursive call returns, the move printed to stdout is:
+    2 3
+    explanation: this is the printf(from, dest) line in towers().
+
+Q4) The second recursive call invoked by towers(5, 2, 3) is:
+    towers(3, 2, 3)
+
+
+Q5) towers(8, 1, 2) prints 255 lines to stdout.
+
+Requirment 2
+I have completed all requirements. Everything worked.

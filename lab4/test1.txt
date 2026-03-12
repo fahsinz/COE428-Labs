@@ -1,0 +1,15 @@
+0
+1
+p
+g
+c 0 C
+c 1 C
+g
+d A
+d C
+d A
+d
+d
+p
+c 0 B
+0

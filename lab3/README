@@ -1,0 +1,80 @@
+Question 1.
+I've implemented both Insertion and Merge Sort using the required mySort() and integrated all 
+the functions to track comparisons and swaps. Both algorithms are fully functional.
+
+-----------------------------------------------
+
+Question 2: Insertion Sort Analysis
+n is the number of elements.
+
+Best Case (Already Sorted)
+
+Comparisons:
+Total comparisons: n - 1
+
+Moves/Copies: Each pass has 2 copies
+Total moves: 2(n - 1)
+
+Time Complexity: O(n)
+
+---------------------------------------------
+
+Worst Case: Reverse Sorted
+
+Comparisons:
+Total comparisons: (n - 1) + (n - 2) + ... + 1
+= n(n - 1)/2
+
+Moves/Copies: Copies 2(n-1) happen every pass
+Total moves: 2(n-1) + n(n - 1)/2
+
+Time Complexity: O(n^2)
+
+----------------------------------------------
+
+Average Case
+
+Comparisons:
+half of worst case = n(n-1) / 4
+
+Moves/Copies: Copies 2(n-1) happen every pass
+Total Moves: 2(n-1) + n(n-1) / 4
+
+Time Complexity:
+O(n²)
+
+
+---------------------------------------------
+Question 3: Merge Sort Analysis
+Number of levels of recursion: log2(n)
+
+Best Case
+
+Comparisons: nlog2(n)
+
+Moves/Copies: Each pass has 2 copies
+2n log(n)
+
+Time Complexity: O(nlog n)
+
+----------------------------------------------
+
+Average Case
+
+Comparisons: nlog2(n)
+
+Moves/Copies: Each pass has 2 copies
+2n log2(n)
+
+Time Complexity: O(n log n)
+
+--------------------------------------------
+
+Worst Case
+
+Comparisons: nlog2(n)
+
+Moves/Copies: Each pass has 2 copies
+2nlog2(n)
+
+Time Complexity: O(n log n)

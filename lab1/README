@@ -1,0 +1,7 @@
+Everything worked.
+
+Question 1:
+Inside mySort() we call betterSort with the parameters first = 0
+and last = num_elements -1 so that we could use the sorting function
+that we just made in this lab.
+
